@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* Reset */
+* {
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.2;
+/* Para que el scrolleo en la one page sea suave */
+   scroll-behavior: smooth;}
+
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    text-decoration: none;
+    color: inherit;}
+
+h1{
+    font-size: 30px;
+    padding-top: 120px;}
+
+h2 {
+    text-align: center;
+    font-size: 28px;}
+
+h5{
+    font-size: 15px;}
+
+body {
+    background-color: #fbfbfb;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;}
+
+.menu-navegacion {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0px 10px 8px #ccc8c8;
+    font-size: 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    height: 90px;}
+
+.enlaces li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px; }
+
+.anclas {
+    box-shadow: 0px 5px 5px #4682B4;
+    padding-left: 10px;}
+ 
+li.anclas a.active {
+    color:  brown;}
+
+.iconos a.active {
+    box-shadow: 0px 0px 20px 8px #686464;}
+
+/*#imagen2:hover {box-shadow: 0px 10px 10px #686464;}*/
+
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;)*/
+main {
+    max-width: 1200px;
+    margin: auto;}
+
+section {
+    padding-top: 100px;
+    padding-bottom: 20px;
+    min-height: 100vh;
+    justify-content: center;}
+
+p {
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align:justify;}
+
+.boton {
+    border-radius: 15px;
+    padding: 5px;
+    background-color: #4682B4;
+    color: white;
+    width: 100%;
+    max-width: 180px;
+    min-width: 120px;
+    margin: auto;
+    font-size: 20px;}
+
+.boton.gris {
+    background-color:#7A7A7A;}*/
+
+#cuadrocolor {
+    background-color: #1c667c;
+    margin: auto;}
+
+#Contacto {
+    flex-direction: column;
+    margin-left: 200px;
+    margin-right: 200px;}
+
+#Mihistoria{
+    flex-direction: column;
+    margin-left:100px;
+    margin-right: 100px;}
+
+#Portafolio{
+    flex-direction: column;
+    margin-left: 180px;
+    margin-right: 180px;}
+
+/*.lista li{
+    background-image: url(/img/instagram.png);}*/
+
+#linkcontacto {
+    padding: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: center;}
+
+.lista li{
+    text-align: left;
+    padding-left: 20px;}
+
+img {
+    width: 100%;
+    max-width: 50px;
+    min-width: 30px;}
+
+#imagen1 {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 100px;
+    min-width: 50px;}
+
+#imagen2 {
+    width: 100%;
+    max-width: 50px;
+    min-width: 30px;
+    margin-right: 50px;}
+
+footer {
+    width: 100%;
+    background-color: #4682B4;
+    height: 90px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;}
+
+/*mobile*/    
+section {
+    display: flex;
+    flex-direction: column;}
+
+/*table*/
+@media (min-width: 768px) {
+    section {flex-direction: column;}
+    p {font-size: 20px;}
+    h1{font-size: 35px;}
+    h2{font-size: 33px;}}
+
+/*desktop*/
+@media (min-width: 1200px) {
+    section { 
+    flex-direction: row;}
+    p {font-size: 22px;}
+    h1{font-size: 48px;}
+    h2{font-size: 32px;}
+    #imagen1{
+        border-radius: 50%;
+        width: 100%;
+        max-width: 800px;
+        min-width: 300px;}}
+
+
