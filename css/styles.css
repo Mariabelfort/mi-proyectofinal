@@ -31,7 +31,10 @@ body {
     background-color: #fbfbfb;
     text-align: center;
     padding-left: 10px;
-    padding-right: 10px;}
+    padding-right: 10px;
+    background-image: url(/img/—Pngtree—abstract\ backgrouns\ set\ grunge\ texture_1446772.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;}
 
 .menu-navegacion {
     position: fixed;
@@ -66,8 +69,6 @@ li.anclas a.active {
 
 .iconos a.active {
     box-shadow: 0px 0px 20px 8px #686464;}
-
-/*#imagen2:hover {box-shadow: 0px 10px 10px #686464;}*/
 
 /* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
 *  el margin: auto; para tenerlo centrado fácilmente ;)*/
@@ -118,9 +119,6 @@ p {
     flex-direction: column;
     margin-left: 180px;
     margin-right: 180px;}
-
-/*.lista li{
-    background-image: url(/img/instagram.png);}*/
 
 #linkcontacto {
     padding: 40px;
