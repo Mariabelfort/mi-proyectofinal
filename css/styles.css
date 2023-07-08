@@ -16,7 +16,7 @@ a {
     text-decoration: none;
     color: inherit;}
 
-h1{
+h1 {
     font-size: 30px;
     padding-top: 120px;}
 
@@ -24,7 +24,7 @@ h2 {
     text-align: center;
     font-size: 28px;}
 
-h5{
+h5 {
     font-size: 15px;}
 
 body {
@@ -36,41 +36,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;}
 
-.menu-navegacion {
-    position: fixed;
-    top: 0%;
-    left: 0%;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    box-shadow: 0px 10px 8px #ccc8c8;
-    font-size: 20px;
-    font-weight: bold;
-    box-sizing: border-box;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 20px;
-    height: 90px;}
-
-.enlaces li {
-    list-style: none;
-    display: inline-block;
-    padding-left: 5px;
-    padding-right: 5px; }
-
-.anclas {
-    box-shadow: 0px 5px 5px #4682B4;
-    padding-left: 10px;}
- 
-li.anclas a.active {
-    color:  brown;}
-
-.iconos a.active {
-    box-shadow: 0px 0px 20px 8px #686464;}
-
-/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+    /* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
 *  el margin: auto; para tenerlo centrado fácilmente ;)*/
 main {
     max-width: 1200px;
@@ -87,6 +53,36 @@ p {
     margin-left: 10px;
     text-align:justify;}
 
+.menu-navegacion {
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 0px 10px 8px #ccc8c8;
+    font-size: 20px;
+    font-weight: bold;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 10px;
+    height: 90px;}
+
+.enlaces li {
+    list-style: none;
+    display: inline-block;
+    padding-left: 5px;
+    padding-right: 5px;}
+
+.anclas {
+    box-shadow: 0px 5px 5px #4682B4;
+    padding-left: 10px;}
+ 
+li.anclas a.active {
+    color:  brown;}
+
 .boton {
     border-radius: 15px;
     padding: 5px;
@@ -98,37 +94,26 @@ p {
     margin: auto;
     font-size: 20px;}
 
-.boton.gris {
-    background-color:#7A7A7A;}*/
+.boton:hover {
+    background-color:#7A7A7A;}
 
-#cuadrocolor {
-    background-color: #1c667c;
-    margin: auto;}
+#Mihistoria { 
+    flex-direction: column;}
 
 #Contacto {
-    flex-direction: column;
-    margin-left: 200px;
-    margin-right: 200px;}
+    flex-direction: column;}
 
-#Mihistoria{
-    flex-direction: column;
-    margin-left:100px;
-    margin-right: 100px;}
+#Portafolio {
+    flex-direction: column;}
 
-#Portafolio{
-    flex-direction: column;
-    margin-left: 180px;
-    margin-right: 180px;}
+.lista li {
+    text-align: center;}
 
 #linkcontacto {
     padding: 40px;
     list-style: none;
     display: flex;
     justify-content: center;}
-
-.lista li{
-    text-align: left;
-    padding-left: 20px;}
 
 img {
     width: 100%;
