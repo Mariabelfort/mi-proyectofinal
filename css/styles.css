@@ -67,7 +67,8 @@ p {
     box-sizing: border-box;
     padding-left: 10px;
     padding-right: 10px;
-    height: 90px;}
+    height: 90px;
+background-color: #fbfbfb;}
 
 .enlaces li {
     list-style: none;
